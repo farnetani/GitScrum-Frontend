@@ -1,0 +1,51 @@
+.label-item {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    border-radius: 4px;
+    .action {
+        cursor: pointer;
+    }
+    .action-hover {
+        opacity: 0;
+        transition: opacity ease-in 0.2s;
+    }
+    &:hover .action-hover {
+        opacity: 1;
+    }
+}
+
+.badge-labels {
+    cursor: default;
+    margin: 2px 4px 3px 0;
+    font-size: 12px;
+    font-weight: 500;
+    span {
+        display: block;
+        padding: 2px 4px;
+    }
+}
+
+.badge-labels-light {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    margin: 2px 4px 3px 0;
+    padding: 3px 6px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: rgba(0, 0, 0, 0.6) !important;
+    b {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    span {
+        display: block;
+        padding: 2px 4px;
+    }
+}

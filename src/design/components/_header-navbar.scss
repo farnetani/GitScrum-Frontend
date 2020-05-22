@@ -1,0 +1,330 @@
+.dropdown-style,
+#header-navbar {
+    height: 50px;
+    padding: 0;
+    z-index: 15;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(108, 114, 147, 0.15);
+    .dropdown.show {
+        button span,
+        button svg {
+            color: #464dee;
+        }
+        img {
+            border: 2px solid rgba(70, 77, 238, 0.6)
+        }
+    }
+    .header-gift .dropdown.show {
+        button svg {
+            color: #E10066;
+        }
+    }
+    .dropdown-menu.show {
+        margin-top: 5px;
+    }
+    .dropdown-menu {
+        width: 300px;
+        padding: 10px;
+        background: #ffffff !important;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+        border-radius: 6px !important;
+        p {
+            color: #68748F;
+            padding: 0;
+            margin: 0;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .b-dropdown-text {
+            width: 280px;
+            padding: 5px 11px;
+            font-weight: 400;
+            font-size: 13px;
+            strong {
+                color: #68748F;
+                display: block;
+                font-size: 14px;
+            }
+            p {}
+            span {
+                font-size: 12px;
+                display: block;
+            }
+            small {
+                font-size: 11px;
+                display: block;
+                color: #909CB8;
+            }
+        }
+    }
+    .dropdown-item {
+        white-space: initial;
+        padding-bottom: 7px;
+    }
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        text-decoration: none;
+        background: #edf0ff;
+        border-radius: 4px;
+        span,
+        p,
+        strong {
+            color: #464dee;
+        }
+    }
+    .dropdown-header {
+        color: #9EA9C1;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .header-user {
+        .dropdown-toggle {
+            padding: 5px;
+        }
+    }
+    .header-gift {
+        span,
+        p,
+        div {
+            cursor: default;
+        }
+        strong {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 11px !important;
+        }
+        button {
+            color: #F875B0;
+            padding: 0;
+            &:hover {
+                color: #E10066 !important;
+            }
+        }
+        .fa-gift {
+            margin: 7px 7px 0 12px;
+            font-size: 20px;
+        }
+        .dropdown-menu.show {
+            margin-top: 12px !important;
+        }
+    }
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+        margin-top: 3px;
+        font-weight: 500;
+        color: #68748F;
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 13px;
+        border: 0 solid transparent !important;
+        &:hover {
+            color: #464dee;
+        }
+    }
+    .navbar-brand {
+        margin-right: 0;
+        padding-top: 2px;
+        padding-bottom: 0;
+        font-size: 0 !important;
+    }
+    .navbar-toggler {
+        padding: 4px 10px 0;
+        font-size: auto;
+        line-height: auto;
+        border-color: transparent;
+    }
+}
+
+.dropdown-style.no-shadow {
+    .dropdown {
+        width: 100%;
+    }
+    .dropdown-menu {
+        width: auto;
+    }
+    box-shadow: none;
+    &:focus,
+    &:hover,
+    &:active,
+    &:visited {
+        color: #68748F;
+        background: transparent;
+    }
+    button {
+        padding: 10px 9px;
+        text-align: left;
+        font-size: 14px;
+        &:focus,
+        &:hover,
+        &:active,
+        &:visited {
+            font-size: 14px;
+            background-color: #F5F7FB;
+            border-radius: 4px;
+            color: #464DEE;
+            border-color: transparent;
+        }
+    }
+    .btn-secondary:not(:disabled):not(.disabled):active,
+    .wizard>.actions .disabled a:not(:disabled):not(.disabled):active,
+    .btn-secondary:not(:disabled):not(.disabled).active,
+    .wizard>.actions .disabled a:not(:disabled):not(.disabled).active,
+    .show>.btn-secondary.dropdown-toggle,
+    .wizard>.actions .disabled .show>a.dropdown-toggle {
+        background-color: #F5F7FB;
+        border-radius: 4px;
+        color: #464DEE;
+        border-color: transparent;
+    }
+}
+
+.badge-upgrade {
+    margin-top: 10px !important;
+    background: #FF0476 !important;
+    font-weight: 600;
+}
+
+.dropdown-header {
+    display: block;
+    padding: 0 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #6c7293;
+    white-space: nowrap;
+}
+
+.shareable-board {
+    .b-dropdown-form {
+        padding: 8px 15px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+}
+
+.subheader {
+    background: rgba(214, 218, 228, 0.9);
+    padding: 10px 9px;
+    min-height: 45px;
+    .form-control {
+        width: 220px;
+        margin-right: 7px;
+    }
+    .custom-select {
+        width: 160px;
+        margin-right: 7px;
+    }
+    .btn-light {
+        color: #68748F !important;
+        height: 31px;
+    }
+    .fa-times {
+        margin-left: 5px !important;
+        height: 0.8em !important;
+    }
+}
+
+.collapse .badge-labels {
+    height: 24px;
+}
+
+@include media-breakpoint-down(sm) {
+    .container-fluid.page-body-wrapper.mt-60-px {
+        margin-top: 90px !important;
+    }
+    .row.mb-30-px {
+        padding: 25px 6px;
+    }
+    .vsm--toggle-btn {
+        display: none !important;
+    }
+    .v-sidebar-menu,
+    #header-project-info {
+        display: none !important;
+    }
+    #page-padding-left {
+        padding-left: 0 !important;
+    }
+    .v-sidebar-menu.vsm_collapsed {
+        padding-top: 76px;
+        max-width: 50px !important;
+    }
+    .page-body-wrapper {
+        margin-top: 60px;
+    }
+    .modalContent {
+        .col-md-5.bg-464DEE {
+            display: none !important;
+        }
+        .col-md-7.d-flex {
+            padding: 25px;
+            align-items: start !important;
+        }
+    }
+    .gitscrum-upgrade-large.mt-20-px.mb-20-px {
+        margin-top: 0;
+    }
+    .project-card.gitscrum-upgrade {
+        margin-top: -20px;
+        padding-top: 25px !important;
+        .span-cicle-dark {
+            display: none;
+        }
+    }
+    .container.text-center {
+        padding: 25px;
+    }
+    #header-navbar {
+        height: 65px;
+        .navbar-brand {
+            position: absolute;
+        }
+        .header-user {
+            list-style: none;
+            right: 60px;
+            position: absolute;
+        }
+        .navbar-toggler {
+            padding: 4px 10px 0;
+            position: absolute;
+            right: 0;
+        }
+        .navbar-collapse {
+            transition: none !important;
+            background: #fff;
+            height: 100vh;
+            width: 100%;
+            margin-top: 65px;
+            .header-language {
+                display: none;
+            }
+            .btn {
+                text-align: left;
+                font-size: 18px !important;
+            }
+            .dropdown.b-dropdown.show {
+                width: 100%;
+                .dropdown-menu {
+                    position: absolute;
+                    width: 100%;
+                    padding: 10px;
+                    box-shadow: none !important;
+                    border-color: transparent;
+                }
+                .btn-group {
+                    display: block !important;
+                }
+            }
+        }
+    }
+    .subheader {
+        padding: 30px 9px 15px;
+    }
+}

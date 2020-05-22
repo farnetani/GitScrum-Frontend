@@ -1,0 +1,95 @@
+.timer {
+    min-width: 70px;
+    /*
+    min-width: 83px;
+    display: inline-block;
+    color: #212121;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0 8px;
+    margin: 4px 10px 6px 10px !important;
+    */
+    span i {
+        cursor: pointer !important;
+    }
+}
+
+.divTableCell .timer {
+    width: 76px;
+}
+
+.divTableCell .timer,
+.task-timer .timer {
+    position: relative;
+    top: 1px;
+    height: 19px;
+    margin: 0 3px !important;
+    .task-timer {
+        margin: 0;
+    }
+    #time {
+        font-size: 10px;
+    }
+    span i {
+        position: relative;
+        top: -1px;
+        font-size: 11px !important;
+    }
+}
+
+.timer-content {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.list-group .task-card .effort-timer {
+    padding-bottom: 10px;
+}
+
+.list-group .task-card .timer .task-timer {
+    color: #68748F;
+}
+
+.task-card .timer .task-timer .fa-play,
+.task-card .timer .task-timer .fa-stop {
+    font-size: 10px !important;
+    margin: 0 0 0 5px;
+    position: relative;
+    top: -1px;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.task-modal .timer {
+    padding: 4px;
+    margin: 0px !important;
+}
+
+.task-modal .timer #time {
+    min-width: 115px;
+    font-size: 27px;
+}
+
+.task-modal .timer .timer-content {
+    padding: 0;
+    margin: 0;
+}
+
+.task-modal .timer .timer-content i {
+    margin-top: 0px;
+    height: 19px;
+}
+
+#modal {}
+
+#modal .modal-content .modal-body {
+    background-color: #fff 1;
+}
+
+.modalTimer.card {
+    background-color: #eaf5fc;
+}

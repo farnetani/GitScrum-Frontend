@@ -1,0 +1,28 @@
+{
+    "title": "GitScrum",
+    "description": "",
+    "APIBaseURL": "https://api.gitscrum.com/",
+    "dropbox": {
+        "key": ""
+    },
+    "gdrive": {
+        "clientId": "",
+        "key": ""
+    },
+    "gdrive": {
+        "clientId": "",
+        "key": ""
+    },
+    "github": {
+        "clientId": ""
+    },
+    "facebook": {
+        "clientId": ""
+    },
+    "google": {
+        "clientId": ""
+    },
+    "devServer": {
+        "https": true
+    }
+}

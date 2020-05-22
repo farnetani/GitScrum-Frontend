@@ -1,0 +1,107 @@
+.glanceyear-container {
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100%;
+    svg rect.day {
+        fill: rgba(61, 79, 159, 0.1);
+        shape-rendering: crispedges;
+    }
+    svg rect.day:hover {
+        stroke: #aaa;
+        stroke-width: 1px;
+    }
+    svg rect.day[data-count] {
+        fill: #001737;
+    }
+    svg rect.day[data-count='1'] {
+        fill: rgba(61, 79, 159, 0.5);
+    }
+    svg rect.day[data-count='2'] {
+        fill: #3D4F9F;
+    }
+    svg rect.day[data-count='3'] {
+        fill: #001737;
+    }
+    svg text {
+        fill: #ccc;
+        font-size: 9px;
+    }
+    svg text.month {
+        fill: #aaa;
+    }
+}
+
+.svg-tag {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    color: #eee;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 15px;
+    position: absolute;
+    text-align: center;
+}
+
+.svg-tag:after {
+    border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    bottom: -5px;
+    content: '';
+    height: 0;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    width: 0;
+}
+
+.glanceyear-header {
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 7px 10px;
+}
+
+.glanceyear-quantity {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #aaa;
+    font-size: 10px;
+}
+
+.glanceyear-content {
+    padding: 10px 0;
+}
+
+.glanceyear-text {
+    color: #aaa;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0;
+    padding: 0;
+}
+
+.glanceyear-summary {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0 10px 10px;
+}
+
+.glanceyear-legend {
+    color: #aaa;
+    float: right;
+    font-size: 12px;
+    text-align: middle;
+    text-wrap: none;
+}
+
+.glanceyear-legend span {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}

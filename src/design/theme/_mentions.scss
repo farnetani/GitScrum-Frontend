@@ -1,0 +1,132 @@
+.atwho-panel {
+    top: -5px !important;
+    left: 14px !important;
+}
+
+.atwho-panel,
+.atwho-inner,
+.atwho-ul {
+    width: 100%;
+}
+
+.mention-group {
+    width: 100%;
+    .mention {
+        border: 1px solid #e9e9e9;
+        box-sizing: border-box;
+        border-radius: 5px;
+        #contentElement {
+            border: none;
+            &:focus {
+                outline: none;
+            }
+        }
+        .content {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            color: #6c7293;
+        }
+        .mention-buttons {
+            padding: 5px;
+            // .close-btn {
+            //   margin: auto 10px;
+            //   i {
+            //     font-size: x-large;
+            //   }
+            // }
+            // button.btn {
+            //   background: $gs-blue;
+            //   color: $gs-white;
+            //   border-radius: 4px;
+            // }
+            // .mention-symbols {
+            //   color: #a7afb7;
+            // }
+        }
+        .atwho-view {
+            width: 100%;
+            max-width: 100%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+            border-radius: 5px;
+        }
+        .atwho-ul {
+            width: 100%;
+            padding: 5px;
+        }
+        span.mention-fullname {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #001737;
+            padding-left: 10px;
+        }
+        span.mention-username {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 12px;
+            color: #888;
+            padding-left: 10px;
+        }
+        li.atwho-li {
+            width: 100%;
+            padding: 5px;
+            display: inline-table;
+            transition: background-color ease-in 0.2s;
+            &.mention-row {
+                display: flex;
+                padding: 5px;
+            }
+            &.atwho-cur {
+                background-color: rgba(0, 0, 0, 0.05);
+                border-radius: 2px;
+                width: 100%;
+                span.text {}
+            }
+        }
+        .textarea-layout:empty:before,
+        .input-layout:empty:before {
+            content: attr(data-placeholder);
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            color: #a7afb7;
+        }
+    }
+}
+
+
+/*
+.textarea-layout {
+  background-color: #fff;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid gray;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  overflow: auto;
+  padding: 2px;
+  resize: vertical;
+}*/
+
+
+/*
+.input-layout {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  background-color: white;
+  background-color: -moz-field;
+  border: 1px solid darkgray;
+  box-shadow: 1px 1px 1px 0 lightgray inset;
+  font: -moz-field;
+  font: -webkit-small-control;
+  margin-top: 5px;
+  padding: 2px 3px;
+}
+*/

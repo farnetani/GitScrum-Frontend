@@ -1,0 +1,39 @@
+.jumbotron.hero-banner-large {
+    min-height: 80px;
+    padding: 20px;
+    background: linear-gradient(263.88deg, #26dc8e 0.37%, #26dc8e 0.38%, #3a81cb 72.5%, #464dee 100%);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    h3 {
+        padding-right: 30px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        display: block;
+        color: #fff;
+    }
+    h5 {
+        padding: 0 40px 10px 0;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        display: block;
+        color: #fff;
+    }
+    .btn {
+        font-weight: 600;
+    }
+}
+
+.jumbotron.hero-banner-large.img-external {
+    padding: 0 15px 0 45px;
+    img {
+        position: relative;
+        top: 45px;
+    }
+}
+
+.hero-up-20 {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}

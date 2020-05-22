@@ -1,0 +1,165 @@
+.checklist-container {
+  .checklist-item-line {
+    margin-left: 20px;
+    margin-right: 0;
+    border-radius: 4px;
+    .icon-remove {
+      margin-right: 0;
+    }
+  }
+  .checklist-item-line:hover {
+    background-color: #f7f7f7;
+  }
+  .checklist-title {
+    .editable-text {
+      textarea#title {
+        font-family: 'Poppins';
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        letter-spacing: 0.01em !important;
+        color: #1e1e2f !important;
+        width: 600px;
+        padding: 3px 0 0 4px;
+        margin: 0 0 0 -5px;
+        overflow: hidden !important;
+      }
+      .editable-title {
+        padding: 0;
+      }
+      .editable-title > span > div {
+        font-family: 'Poppins';
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        letter-spacing: 0.01em !important;
+        color: #1e1e2f !important;
+        width: 600px;
+        padding: 4px 0;
+        max-height: initial !important;
+        overflow: hidden !important;
+      }
+
+      .editable-title > span > div:hover {
+        background: none !important;
+      }
+    }
+  }
+
+  .checklist-item {
+    .editable-text {
+      textarea#title {
+        font-family: 'Poppins';
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 14px !important;
+        line-height: 21px !important;
+        letter-spacing: 0.01em !important;
+        color: #6c7293 !important;
+        width: 600px;
+        padding: 3px 0 4px 9px;
+        margin: 0 !important;
+        overflow: hidden !important;
+      }
+      .editable-title {
+        padding: 0;
+      }
+      .editable-title > span > div {
+        font-family: 'Poppins';
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 14px !important;
+        line-height: 21px !important;
+        letter-spacing: 0.01em !important;
+        color: #6c7293 !important;
+        width: 600px;
+        height: inherit !important;
+        padding: 4px 10px;
+        margin: 0 !important;
+        overflow: hidden !important;
+      }
+      .editable-title > span > div:hover {
+        background-color: #f7f7f7;
+      }
+    }
+  }
+}
+.add-checklist {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  .btn-add-checklist {
+    background: #eaeaea;
+    border-radius: 4px;
+    padding: 7px 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #68748f;
+  }
+
+  .container-form-checklist {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    > textarea {
+      padding: 5px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      color: #6c7293;
+      border: none;
+      overflow-y: hidden;
+      &::placeholder {
+        font-size: 12px !important;
+        color: #909cb8 !important;
+      }
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-size: 12px !important;
+        color: #909cb8 !important;
+      }
+    }
+  }
+
+  .checklist-save-btn button {
+    height: 32px;
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .checklist-container {
+    .checklist-item-line {
+      margin-left: 0px;
+    }
+  }
+
+  .checklist-title {
+    // .checklist-item {
+      .editable-text {
+        textarea#title,
+        .editable-title > span > div {
+          width: 260px !important;
+        }
+      // }
+    }
+  }
+
+  .checklist-item {
+    .editable-text {
+      textarea#title,
+      .editable-title > span > div {
+        width: 260px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.editor {
+    .btn {
+        background: #fff;
+        color: #909CB8 !important;
+        border: 1px solid rgba(214, 214, 224, 0.8) !important;
+        font-size: 12px !important;
+        padding: 6px 9px !important;
+        margin: 0 6px 5px 0 !important;
+        min-width: 35px !important;
+        &:hover {
+            color: #ffffff !important;
+            background: #909CB8 !important;
+        }
+    }
+    .ProseMirror {
+        background: #fff;
+        outline: 0 !important;
+        padding: 10px 15px;
+        border: 1px solid rgba(214, 214, 224, 0.8) !important;
+        border-radius: 6px;
+        p,
+        pre,
+        div {
+            font-size: 14px !important;
+        }
+    }
+}
+
+.comment {
+    margin: 10px 0 0 0;
+    background: #F4F6F9;
+    padding: 10px 14px;
+    border-radius: 6px;
+    pre {
+        background: #e8eff4;
+        padding: 15px;
+    }
+}
+
+#comments {
+    .ProseMirror {
+        outline: 0 !important;
+        padding: 10px 15px 35px;
+        border: 1px solid rgba(214, 214, 224, 0.8) !important;
+        border-radius: 6px;
+    }
+    .btn-medium {
+        font-size: 12px;
+        font-style: normal;
+        height: 30px;
+        font-weight: 600 !important;
+        letter-spacing: 0.03em;
+        padding: 0 20px;
+        background: #68748F !important;
+        border-color: #68748F !important;
+    }
+    .comment-editor-button {
+        margin-bottom: -35px;
+        a {
+            top: -45px;
+            position: relative;
+        }
+    }
+    .btn-medium-loading {
+        right: 8px;
+    }
+    .comment-editor-button {
+        top: -47px;
+        right: 5px;
+        position: relative;
+    }
+}
+
+.comment-content {
+    p,
+    span,
+    div,
+    code {
+        color: #001737;
+        font-size: 14px;
+    }
+    padding: 15px 0 5px;
+}

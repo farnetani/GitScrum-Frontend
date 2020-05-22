@@ -1,0 +1,147 @@
+.styled-dropdown {
+    .b-dropdown-form {
+        padding: 10px 10px;
+        .nav-link {
+            font-weight: 700;
+        }
+        .nav-link.active {
+            background: #464DEE;
+            color: #fff;
+        }
+        .form-control {
+            margin-right: 0;
+        }
+    }
+    .dropdown-menu {
+        width: auto;
+        padding: 10px;
+        background: #ffffff !important;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+        border-radius: 6px !important;
+        a.dropdown-item,
+        div.dropdown-item {
+            font-size: 12px;
+            font-weight: 500;
+            svg {
+                margin-right: 4px;
+                font-size: 15px;
+                position: relative;
+                top: 1px;
+            }
+            .action-edit {
+                display: none
+            }
+            &:hover {
+                background-color: #F5F7FB;
+                border-radius: 4px;
+                color: #464DEE;
+                border-color: transparent;
+                .action-edit {
+                    display: block
+                }
+            }
+        }
+        .btn.btn-primary {
+            background: #464DEE !important;
+            text-transform: none;
+            color: #fff !important;
+            padding: 0 12px;
+            height: 32px;
+        }
+    }
+    &:hover {
+        .btn-secondary {
+            border: 1px solid #9EA9C1 !important;
+            background: #909CB8 !important;
+            color: #fff !important;
+        }
+    }
+}
+
+.styled-dropdown.badge-team-members {
+    button {
+        padding: 0;
+        line-height: 0;
+        background-color: transparent !important;
+        border: 1px solid transparent !important;
+    }
+    div {
+        font-size: 0.70em;
+        padding: 4px 6px !important;
+        border-radius: 4px;
+        color: #fff;
+        display: inline;
+        font-weight: 600;
+    }
+    &:hover .btn-secondary {
+        border: 1px solid transparent !important;
+        background: transparent !important;
+    }
+}
+
+.styled-dropdown.show {
+    .btn-secondary {
+        border: 1px solid #9EA9C1 !important;
+        background: #909CB8 !important;
+        color: #fff !important;
+    }
+}
+
+.dropdown-header {
+    padding: 0 2px;
+    h1 {
+        color: #6c7293 !important;
+        font-size: 13px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.dropdown-header-icons {
+    display: flex !important;
+    justify-content: flex-end !important;
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+    div {
+        cursor: pointer;
+        margin: 0 0 0 15px;
+        span {
+            margin-left: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.card {
+    margin-bottom: 5px;
+    border-radius: 6px;
+    .card-delete {
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #F875B0;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.card .card-body {
+    padding: 7px 15px;
+    .media {
+        .mr-3 {
+            margin-right: 8px !important;
+        }
+    }
+}
+
+.dropdown-invite {
+    .dropdown-menu {
+        width: 650px;
+    }
+}

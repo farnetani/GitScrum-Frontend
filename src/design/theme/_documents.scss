@@ -1,0 +1,101 @@
+.document-card {
+    width: 100%;
+    margin-bottom: 16px;
+    .card {
+        border-radius: 4px;
+        .document-image {
+            height: 200px;
+            background: #e7eaed;
+            &:hover {
+                .gallery-dropdown {
+                    opacity: 1;
+                    transition: opacity ease-in 0.2s;
+                }
+            }
+            .gallery-image {
+                width: unset;
+                height: unset;
+                border-radius: unset;
+                border: none;
+                .icons {
+                    text-align: center;
+                    line-height: 225px;
+                }
+            }
+            .cover-container {
+                max-width: 268px;
+                max-height: 200px;
+                overflow: hidden;
+                border-radius: unset !important;
+                .gallery-dropdown {
+                    margin: 5px 0 0 226px !important;
+                }
+                .cover {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 4px 4px 0px 0px;
+                }
+            }
+        }
+        .document-details {
+            padding: 10px;
+            background: #ffffff;
+            border-radius: 0px 0px 4px 4px;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .document-card {
+        margin: 0 8px 16px 8px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .document-card {
+        width: 336px;
+    }
+    .document-card:nth-child(2n + 1) {
+        margin: 0 8px 16px 0;
+    }
+    .document-card:nth-child(2n) {
+        margin: 0 0 16px 8px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .document-card {
+        width: 302px;
+        margin: 0 8px 16px 8px;
+    }
+    .document-card:nth-child(2n + 1),
+    .document-card:nth-child(2n) {
+        margin: 0 8px 16px 8px;
+    }
+    .document-card:nth-child(3n + 1) {
+        margin: 0 8px 16px 0;
+    }
+    .document-card:nth-child(3n) {
+        margin: 0 0 16px 8px;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .document-card {
+        width: 265px;
+    }
+    .document-card:nth-child(2n + 1),
+    .document-card:nth-child(2n) {
+        margin: 0 8px 16px 8px;
+    }
+    .document-card:nth-child(3n),
+    .document-card:nth-child(3n + 1) {
+        margin: 0 8px 16px 8px;
+    }
+    .document-card:nth-child(4n + 1) {
+        margin: 0 8px 16px 0;
+    }
+    .document-card:nth-child(4n) {
+        margin: 0 0 16px 8px;
+    }
+}

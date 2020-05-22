@@ -1,0 +1,19 @@
+.vue-dropzone {
+  border: 2px dashed #9ea9c1 !important;
+  min-height: unset !important;
+  height: unset !important;
+
+  .dz-message {
+    margin: 0 !important;
+    display: block;
+  }
+
+  .dropzone-custom-content {
+    display: block;
+
+    .dropzone-custom-title,
+    .subtitle {
+      color: #9ea9c1 !important;
+    }
+  }
+}

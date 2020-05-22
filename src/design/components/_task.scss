@@ -1,0 +1,485 @@
+    .task-content .task-assignees {
+        margin-right: 10px;
+    }
+    
+    .task-assignees {
+        .dropdown button {
+            padding: 5px 8px;
+            margin: 1px 0 0 0;
+            font-size: 14px;
+            color: #68748f;
+            background: #eaeaea;
+            border: 1px solid #ffffff;
+            width: 30px !important;
+            height: 30px !important;
+            border-radius: 100%;
+        }
+        .spinner-border {
+            width: 12px;
+            height: 12px;
+            border-width: 2px;
+            position: relative;
+            top: -3px;
+        }
+        .dropdown-menu {
+            width: 280px;
+            max-height: 244px;
+            overflow-x: auto;
+        }
+        .dropdown.show button {
+            color: #fff;
+            background: #464dee;
+        }
+        .list-users {
+            div {
+                margin-bottom: 3px;
+            }
+        }
+    }
+    
+    .task-workflows {
+        position: relative;
+        top: -4px;
+        .btn {
+            padding: 0;
+            border: 0 solid transparent;
+            height: 28px;
+        }
+        .btn div {
+            padding: 6px 15px;
+            border-radius: 4px;
+        }
+        .workflow {
+            padding: 4px 15px;
+            border-radius: 4px;
+        }
+        li {
+            padding: 2px 10px;
+        }
+        a {
+            &:hover {
+                border-radius: 4px;
+                color: #2b65f0;
+                background: #edf0ff;
+            }
+        }
+        .title-loading {
+            width: 12px;
+            height: 12px;
+            top: -4px;
+            margin-left: 0 !important;
+            color: #fff !important;
+        }
+    }
+    
+    .task-actions {
+        .dropdown {
+            width: 100%;
+        }
+    }
+    
+    .task-labels {
+        .project-label-form {
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            .form-control {
+                border-top-right-radius: 0 !important;
+                border-bottom-right-radius: 0 !important;
+            }
+            .vue-swatches__trigger {
+                top: 2px;
+                position: relative;
+                margin-right: 10px;
+                border-top-right-radius: 6px !important;
+                border-bottom-right-radius: 6px !important;
+            }
+            .btn-primary {
+                height: 31px !important;
+            }
+        }
+        .project-label-form-actions {
+            margin: 5px 0 0 0;
+            align-items: center !important;
+            justify-content: space-between !important;
+            display: flex !important;
+            a {
+                color: #68748f !important;
+                font-size: 10px !important;
+                text-transform: uppercase;
+                font-weight: 500 !important;
+            }
+        }
+        .label-line {
+            max-height: 316px;
+            overflow-x: auto;
+            .dropdown-item {
+                align-items: center !important;
+                justify-content: space-between !important;
+                display: flex !important;
+            }
+            .square {
+                display: block;
+                width: 16px;
+                height: 16px;
+                margin-right: 5px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        }
+        .label-name {
+            cursor: pointer;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            display: flex !important;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .action-edit {
+            cursor: pointer;
+        }
+    }
+    
+    .list-tasks {
+        .box-shadow {
+            box-shadow: 0 3px 4px rgba(108, 114, 147, 0.15);
+            padding: 0;
+            margin-bottom: 8px;
+            border: 1px solid rgba(158, 169, 193, 0.2);
+        }
+        .card {
+            .card-body {
+                padding: 7px 10px 0 6px;
+            }
+            border: 0 solid transparent;
+        }
+        h2 {
+            width: 100% !important;
+            cursor: pointer;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+            color: #2A3B9C;
+            display: flex;
+            margin-bottom: 0;
+            width: 98%;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .task-users {
+            top: -1px;
+            position: relative;
+        }
+        .subtitle1 {
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 14px;
+            color: #909CB8;
+        }
+        .progress {
+            border-radius: 4px;
+            height: 4px !important;
+        }
+        .task-card-content {
+            display: flex !important;
+            justify-content: space-between !important;
+            h2 {
+                width: 100%;
+            }
+            .task-users {
+                padding-right: 7px;
+            }
+        }
+        .task-card-badge {
+            display: flex !important;
+            margin-top: 5px;
+            span,
+            .timer {
+                height: 20px;
+            }
+            .timer {
+                margin: 0 4px 0 0;
+                .task-timer {
+                    position: relative;
+                    top: -3px;
+                }
+                .fas {
+                    top: 2px;
+                    position: relative;
+                    right: -2px;
+                }
+            }
+        }
+    }
+    
+    .task-left-icon {
+        text-align: right;
+        margin-top: 2px;
+        span,
+        svg {
+            font-size: 22px;
+            color: #9EA9C1;
+            margin-right: 10px;
+        }
+        svg.fa-arrows-alt {
+            cursor: grab;
+            margin-top: 2px;
+            font-size: 14px;
+        }
+        span {
+            font-size: 14px;
+        }
+    }
+    
+    .task-left-content {
+        padding-left: 2px;
+        h5 {
+            margin: 4px 0 0 2px;
+            color: #68748F;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .progress {
+            margin: 6px 0 0 3px;
+            border-radius: 0 !important;
+            height: 12px;
+            .progress-bar {
+                border-radius: 0 !important;
+            }
+        }
+        .vlabeledit-label {
+            margin: 0 0 1px 0;
+            padding: 0 3px 0;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .vlabeledit-input {
+            position: relative;
+            top: -6px;
+            width: 100%;
+            font-size: 16px;
+            line-height: 20px;
+            background: #E5EFFF;
+        }
+        .checklist-remove {
+            position: absolute;
+            padding: 0 0 0 30px;
+            right: -25px;
+            top: -4px;
+            svg {
+                cursor: pointer;
+                color: #9EA9C1 !important;
+                font-size: 18px;
+            }
+        }
+        .checklist-item {
+            margin: 8px 0 0 0;
+        }
+        .checklist-item-line {
+            background: rgb(255, 255, 255);
+            border-radius: 6px;
+            padding: 0px 0px 4px;
+            svg {
+                position: relative;
+                top: 5px;
+                display: none !important;
+            }
+            &:hover {
+                svg {
+                    display: block !important;
+                }
+            }
+            .task-left-icon {
+                max-width: 30px;
+                span {
+                    margin: 0 0 0 4px;
+                }
+            }
+            .checklist-details {
+                margin-left: 26px;
+                .d-block {
+                    margin: 2px 0 0 0;
+                }
+            }
+            .col-11 {
+                margin: 4px 0 0 0;
+            }
+            .vlabeledit {
+                width: 100%;
+                margin: 2px 0 0 0;
+            }
+            .vlabeledit-input {
+                width: 100%
+            }
+        }
+        .checklist-details {
+            font-size: 11px;
+            line-height: 12px;
+            color: #9EA9C1;
+            margin-left: 3px;
+        }
+        .new-checklist-item {
+            margin: 0;
+            padding: 0;
+            border-bottom: 1px solid rgba(158, 169, 193, 0.3);
+            a {
+                font-size: 11px;
+                line-height: 22px;
+                display: block;
+            }
+            textarea {
+                line-height: 18px;
+                outline: 0 !important;
+                padding: 10px 15px 35px !important;
+                border: 1px solid rgba(214, 214, 224, 0.8) !important;
+                border-radius: 6px;
+            }
+            .btn-medium {
+                padding: 0 20px;
+                height: 30px;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600 !important;
+                letter-spacing: 0.03em;
+                margin-top: -56px;
+                right: 22px;
+                position: absolute;
+            }
+        }
+    }
+    
+    .task-permanent-link {
+        label {
+            font-size: 11px;
+            color: #9EA9C1;
+        }
+    }
+    
+    .square-color {
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+        border-radius: 4px;
+    }
+    
+    .b-sidebar>.b-sidebar-header {
+        padding: 0.5rem 0;
+    }
+    
+    #sidebar-task-filter {
+        overflow-x: hidden;
+        overflow-y: auto;
+        .mx-range-wrapper {
+            width: 218px;
+            overflow: hidden;
+        }
+        .mx-panel {
+            width: 195px;
+            height: 100%;
+            text-align: center;
+        }
+        .mx-calendar {
+            float: none !important;
+        }
+        .mx-panel-date td,
+        .mx-panel-date th {
+            font-size: 12px;
+            width: 22px !important;
+            height: 18px !important;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+        #sidebar-task-filter___title__ {
+            font-weight: 400;
+            font-size: 14px;
+            color: #001737;
+        }
+        position: absolute;
+        background: #F4F6F9 !important;
+        padding: 11px 15px;
+        width: 250px;
+        top: 36px;
+        height: calc(100% - 36px);
+        z-index: 5;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px -5px,
+        rgba(0, 0, 0, 0.14) 0px 16px 24px 2px,
+        rgba(0, 0, 0, 0.12) 0px 6px 30px 5px;
+        left: 240px;
+        .close {
+            top: 0;
+            position: relative;
+        }
+        h5 {
+            margin: 0 0 12px 0;
+            font-size: 11px;
+            font-weight: 600;
+            color: #9ea9c1;
+            text-transform: uppercase;
+        }
+        fieldset.form-group {
+            padding: 5px 0 0 0 !important;
+        }
+        .form-group {
+            margin: 10px 0 0 0 !important;
+            .col-6 {
+                padding-left: 0;
+            }
+            .mx-input {
+                height: 30px;
+            }
+        }
+        .bv-no-focus-ring {
+            .form-group,
+            .form-control {
+                margin: 0 !important;
+                padding: 0 !important;
+                border: 0 solid transparent;
+                background-color: transparent;
+                .close {
+                    top: 0;
+                    position: relative;
+                }
+                button:focus,
+                button:active {
+                    border: 0 solid transparent !important;
+                    outline: none !important;
+                }
+            }
+        }
+        .col-form-label {
+            margin: 0;
+            padding-bottom: 0;
+            font-size: 11px;
+            font-weight: 600;
+            color: #9ea9c1;
+            text-transform: uppercase;
+        }
+        .custom-select {
+            background-color: #fff !important;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            height: calc(1.5em + 10px);
+        }
+        .list-inline-item:not(:last-child) {
+            margin-right: 0;
+        }
+        .badge-info {
+            padding: 0px 8px;
+            color: #212529;
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            margin: 0 1px 2px 0px;
+        }
+        .align-items-baseline {
+            align-items: center !important;
+        }
+    }
+    
+    .b-sidebar-outer {
+        z-index: 8 !important;
+    }

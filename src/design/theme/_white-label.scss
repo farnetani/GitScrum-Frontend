@@ -1,0 +1,18 @@
+.white-label {
+  .input-group {
+    height: 32px;
+
+    input {
+      border-radius: unset !important;
+      border-top-left-radius: 4px !important;
+      border-bottom-left-radius: 4px !important;
+      height: 32px;
+    }
+
+    .input-group-append button {
+      border-radius: unset !important;
+      border-top-right-radius: 4px !important;
+      border-bottom-right-radius: 4px !important;
+    }
+  }
+}

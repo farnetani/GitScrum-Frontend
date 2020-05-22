@@ -1,0 +1,92 @@
+#header-project-info {
+    padding: 15px 8px 5px 15px;
+    .form-group {
+        margin-bottom: 0;
+        padding: 0;
+        border-color: transparent !important;
+        .btn {
+            padding: 0 10px;
+            border-color: #DADBFC;
+            color: #68748f;
+            background: #fff;
+            cursor: pointer;
+        }
+        .active {
+            background-color: #68748f;
+            color: #fff;
+        }
+    }
+}
+
+.sprint-timebox {
+    .none {
+        display: none;
+    }
+    .calendar-edit {
+        cursor: pointer;
+    }
+    .timebox-datepicker {
+        margin-top: -5px;
+    }
+}
+
+.sprint,
+.user-story {
+    .progress {
+        background: #eaeaea;
+        border-radius: 4px;
+        .progress-bar {
+            background-color: #1D2E67 !important;
+            border-radius: 4px;
+        }
+    }
+    .percentage-text {
+        min-width: 18px;
+        max-width: 32px;
+        width: 32px;
+    }
+    .title {
+        letter-spacing: 0.03em;
+    }
+}
+
+.projects-empty {
+    .projects-empty-modal {
+        margin: 0 auto;
+        width: 630px;
+        height: 720px;
+        background: url(https://gitscrum-static.s3.amazonaws.com/img/projects-empty.png) center center;
+    }
+    .projects-welcome-modal {
+        margin: 0 auto;
+        width: 630px;
+        height: 720px;
+        background: url(https://gitscrum-static.s3.amazonaws.com/img/projects-welcome.png) center center;
+    }
+    .project-empty-content {
+        position: absolute;
+        width: 430px;
+        margin: 400px 100px 0;
+        text-align: center;
+    }
+}
+
+.project-progress.progress {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 11 !important;
+    height: 3px;
+    left: 0;
+    right: 0;
+    .progress-bar {
+        border-radius: 0;
+        background-color: #26dc8e !important;
+    }
+}
+
+.title-component {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E9E9E9;
+}

@@ -1,0 +1,93 @@
+.welcome {
+    height: 100%;
+    .welcome-box {
+        background: #1D2E67;
+        color: #fff;
+        width: 550px;
+        padding: 45px;
+        border-radius: 6px;
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.5);
+        .rabbit {
+            position: absolute;
+            top: 35px;
+            margin-left: -90px;
+        }
+        h1 {
+            font-size: 20px;
+            line-height: 26px;
+            margin-left: 140px;
+            span {
+                display: block;
+            }
+        }
+        h2 {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 400;
+            margin-left: 140px;
+        }
+        .close {
+            z-index: 9999 !important;
+            position: absolute !important;
+            top: -15px !important;
+            right: 0px !important;
+            font-size: 60px !important;
+            color: #fff;
+        }
+        .form-group {
+            margin-bottom: 10px;
+            label {
+                font-size: 14px;
+                line-height: auto;
+                vertical-align: top;
+                margin-bottom: 5px !important;
+                display: block;
+            }
+            .project-title {
+                font-size: 20px;
+            }
+        }
+        hr {
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border: 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 0;
+        }
+        .link-advanced {
+            color: #DADBFC;
+        }
+        .mx-input {
+            height: 31px !important;
+        }
+    }
+    .welcome-content {
+        width: 100%;
+    }
+    .welcome-box-logo {
+        margin-top: 70px;
+        div {
+            cursor: pointer;
+            width: 98px;
+            height: 50px;
+            background: #fff;
+            border-radius: 4px;
+            margin: 0 20px 20px 0 !important;
+            padding: 4px 0 0 8px;
+        }
+        img {
+            height: 40px;
+        }
+        div:nth-child(4n) {
+            margin: 0 0 20px 0 !important;
+        }
+    }
+    .welcome-footer {
+        position: relative;
+        bottom: 0;
+        ;
+    }
+}

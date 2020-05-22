@@ -1,0 +1,13 @@
+.form-check {
+  .form-check-label {
+    input[type='checkbox']:checked + .input-helper:before {
+      background-color: #464dee;
+      border-radius: 3px;
+    }
+
+    input[type='checkbox'] + .input-helper:before {
+      border: solid 1px #E9E9E9;
+      border-radius: 3px;
+    }
+  }
+}

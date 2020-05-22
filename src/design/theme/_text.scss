@@ -1,0 +1,217 @@
+.bg-464DEE {
+    background: #464dee;
+    color: #fff;
+}
+
+.bg-ffffff {
+    background: #fff !important;
+}
+
+.txt {
+    &-primary {
+        font-style: normal;
+        font-weight: 600;
+        color: #3d4f9f !important;
+    }
+    &-primary-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #3d4f9f;
+        display: flex;
+    }
+    &-secondary,
+    &-secondary p,
+    &-secondary span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #a2b3ca;
+    }
+    &-muted {
+        color: #68748f;
+    }
+    &-dark {
+        color: #001737;
+    }
+    &-link,
+    &-link div,
+    &-link span,
+    &-link p {
+        transition: color ease-in 0.2s;
+        &:hover {
+            cursor: pointer !important;
+            text-decoration: underline;
+        }
+    }
+    &-DFE8FD {
+        color: #DFE8FD !important;
+    }
+    &-001737 {
+        color: #001737 !important;
+    }
+    &-3D4F9F {
+        color: #3d4f9f !important;
+    }
+    &-6C7293 {
+        color: #6c7293 !important;
+    }
+    &-68748F {
+        color: #68748f !important;
+    }
+    &-909CB8 {
+        color: #909cb8 !important;
+    }
+    &-9EA9C1 {
+        color: #9ea9c1 !important;
+    }
+    &-A7AFB7 {
+        color: #a7afb7 !important;
+    }
+    &-D0D0D0 {
+        color: #d0d0d0 !important;
+    }
+    &-464DEE {
+        color: #464dee !important;
+    }
+    &-26DC8E {
+        color: #26dc8e !important;
+    }
+    &-EF5958 {
+        color: #ef5958 !important;
+    }
+    &-FFFFFF {
+        color: #ffffff !important;
+    }
+    &-FBBB00 {
+        color: #fbbb00 !important;
+    }
+    &-color {
+        color: #464dee !important;
+    }
+}
+
+.fw- {
+    &normal {
+        font-weight: normal !important;
+    }
+    &700 {
+        font-weight: 700 !important;
+    }
+    &600 {
+        font-weight: 600 !important;
+    }
+    &500 {
+        font-weight: 500 !important;
+    }
+    &400 {
+        font-weight: 400 !important;
+    }
+}
+
+.lh- {
+    &9-px {
+        line-height: 9px !important;
+    }
+    &12-px {
+        line-height: 12px !important;
+    }
+    &14-px {
+        line-height: 14px !important;
+    }
+    &15-px {
+        line-height: 15px !important;
+    }
+    &16-px {
+        line-height: 16px !important;
+    }
+    &18-px {
+        line-height: 18px !important;
+    }
+    &20-px {
+        line-height: 20px !important;
+    }
+    &27-px {
+        line-height: 27px !important;
+    }
+    &30-px {
+        line-height: 30px !important;
+    }
+}
+
+.tx- {
+    &uppercase {
+        text-transform: uppercase;
+    }
+    &10-px {
+        font-size: 10px !important;
+    }
+    &11-px {
+        font-size: 11px !important;
+    }
+    &12-px {
+        font-size: 12px !important;
+    }
+    &14-px {
+        font-size: 14px !important;
+    }
+    &16-px {
+        font-size: 16px !important;
+    }
+    &18-px {
+        font-size: 18px !important;
+    }
+    &20-px {
+        font-size: 20px !important;
+    }
+    &22-px {
+        font-size: 22px !important;
+    }
+    &24-px {
+        font-size: 24px !important;
+    }
+    &36-px {
+        font-size: 36px !important;
+    }
+}
+
+.ls-003 {
+    letter-spacing: 0.03em;
+}
+
+// OLD STYLES
+.tx-14px {
+    font-size: 14px !important;
+}
+
+.tx-18px {
+    font-size: 18px !important;
+}
+
+.tx-24px {
+    font-size: 24px !important;
+}
+
+.tx-20px {
+    font-size: 20px !important;
+}
+
+.lh-16 {
+    line-height: 16px !important;
+}
+
+.lh-16px {
+    line-height: 16px !important;
+}
+
+.txt-A7AFB7.txt-link:hover,
+.txt-A7AFB7.txt-link:hover .txt-A7AFB7 {
+    color: #464dee !important;
+}
+
+.font-14-68748F {
+    font-size: 12px;
+    color: #68748f;
+}

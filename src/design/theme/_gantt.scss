@@ -1,0 +1,87 @@
+.gantt {
+    background: #fff;
+    padding: 15px 0 0 0;
+}
+
+.gantt-badges {
+    position: relative;
+    top: -2px;
+}
+
+.gantt-dates {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 36px;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #9ea9c1;
+}
+
+.gantt-title-fixed {
+    width: 450px !important;
+    max-width: 450px !important;
+    position: sticky;
+    z-index: 5;
+    padding: 0;
+    left: -20px;
+    padding-left: 20px;
+    background: #fff;
+}
+
+.gantt-date-border {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gantt-day-text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    color: #68748f;
+    span {
+        text-align: center;
+        display: block;
+    }
+}
+
+.gantt-dates-text {
+    font-weight: normal;
+    color: #68748F;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+}
+
+.gantt-lines {
+    min-height: 51px;
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    .gantt-line {
+        padding: 15px 0;
+    }
+    .gantt-line-fixed {
+        width: 450px !important;
+        max-width: 450px !important;
+        position: sticky;
+        background: rgb(255, 255, 255);
+        z-index: 5;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        // border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        left: -20px;
+        padding: 4px 20px 4px 20px;
+        height: 52px;
+    }
+    .gantt-line-subtask {
+        padding: 4px 20px 4px 60px;
+    }
+}
+
+.gantt-progress {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 20px;
+}

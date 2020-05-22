@@ -1,0 +1,128 @@
+// background: #EDF0FF; -> HOVER OPTIONS BACKGROUND
+.v-select.vs--searchable {
+    /* background: #fff; */
+}
+
+.vs__selected-options {
+    padding: 4px 2px !important;
+}
+
+.v-select-mini {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    height: 22px;
+    .vs__dropdown-toggle {
+        display: flex;
+        width: 100% !important;
+        height: 22px;
+        border: 1px solid transparent;
+    }
+    .v-select.vs--single.vs--unsearchable {
+        border-radius: 6px;
+        .vs__selected-options {
+            height: 20px;
+        }
+    }
+    .vs__selected-options {
+        padding: 0 2px !important;
+    }
+    .vs__selected {
+        position: relative !important;
+        margin: 0 2px 0 !important;
+    }
+    .vs__search {
+        opacity: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+    }
+}
+
+.v-select-sm {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    height: 30px;
+    .vs__dropdown-toggle {
+        display: flex;
+        height: 30px;
+    }
+    .v-select.vs--single.vs--unsearchable {
+        .vs__selected-options {
+            height: 28px;
+        }
+        span.vs__selected {
+            height: 28px;
+        }
+    }
+}
+
+
+/*
+.v-select.vs--single.vs--unsearchable {
+    border-radius: 3px;
+    display: block !important;
+    .vs__selected-options {
+        padding: 0 !important;
+    }
+    span.vs__selected {
+        margin: 0;
+        padding: 1px;
+        width: 100%;
+    }
+    input.vs__search {
+        margin: 0;
+        width: 1px;
+    }
+    .page-filters & {
+        color: #6c7293;
+        min-width: 131px;
+        background: #ffffff;
+        box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    }
+    .user-story-priority &,
+    .sprint-status & {
+        min-width: 110px;
+        color: #ffffff;
+        background: #68748f;
+        text-align: left;
+        width: auto;
+        height: 25px;
+        margin-top: -2px;
+        .vs__actions svg {
+            fill: #fff;
+        }
+        span.vs__selected {
+            color: #fff;
+            margin: 0 0 0 5px !important;
+            justify-content: left !important;
+            -webkit-box-pack: left !important;
+        }
+        .vs__dropdown-toggle {
+            padding: 2px 0 4px;
+            border: 1px solid transparent;
+        }
+    }
+}
+
+.assigness-list-team-members {
+    margin: 3px 0px 0px -21px;
+    width: 320px;
+    max-height: 300px;
+    overflow-y: auto;
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(0px, 31px, 0px);
+}
+*/
+
+@include media-breakpoint-down(md) {
+    .v-select.vs--single.vs--unsearchable {
+        input.vs__search {
+            text-align: center;
+        }
+    }
+}

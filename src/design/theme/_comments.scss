@@ -1,0 +1,27 @@
+.comment {
+    .text {
+        color: #68748f;
+        margin-top: 4px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+    .buttons-row {
+        margin-left: 40px;
+        a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            //   display: flex;
+            align-items: center;
+            color: #9ea9c1;
+            &.active {
+                color: #464dee;
+                text-decoration-line: underline;
+            }
+        }
+        .action-separator {
+            margin: 0 5px;
+        }
+    }
+}

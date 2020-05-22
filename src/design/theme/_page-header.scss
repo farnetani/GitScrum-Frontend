@@ -1,0 +1,24 @@
+.page-header {
+    z-index: 1020;
+    margin: 0;
+}
+
+.page-header-row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    min-height: 30px;
+    align-items: center;
+    .page-title>h3>span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #001737;
+        align-items: center;
+    }
+}
+
+.horizontal-menu .top-navbar {
+    font-weight: 400;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
+}

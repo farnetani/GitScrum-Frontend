@@ -1,0 +1,81 @@
+.card-marketplace {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 6px;
+    padding: 20px 15px 10px;
+    margin: 10px;
+    transition: box-shadow ease-in 0.2s;
+    .card {
+        height: 100%;
+        border: 1px solid transparent;
+    }
+    .rounded-circle {
+        width: 40px !important;
+        height: 40px !important;
+        margin-bottom: 22px;
+        background: #e0e0e0;
+    }
+    &:hover {
+        box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.07);
+        cursor: pointer;
+        .txt-primary-title {}
+    }
+    .txt-primary-title {
+        display: block;
+        margin: 0 10px 0;
+        text-align: center;
+    }
+}
+
+.marketplace-image {
+    padding: 20px;
+    width: 228px;
+    height: 228px;
+    border-radius: 4px;
+    background: #E5E5E5;
+    img {
+        border-radius: 4px;
+    }
+}
+
+.card-color-box {
+    display: block;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+}
+
+@include media-breakpoint-up(xs) {
+    .card-marketplace {
+        width: 100%;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .card-marketplace {
+        width: 100%;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .card-marketplace {
+        width: 100%;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .card-marketplace {
+        width: 222px;
+        margin-left: 0;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .card-marketplace {
+        width: 268px;
+        margin-left: 0;
+    }
+}

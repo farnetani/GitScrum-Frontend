@@ -1,0 +1,152 @@
+.header-projects-container {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-projects-container span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #001737;
+}
+
+.header-projects-container input,
+.header-projects-container input:focus {
+    background: #ffffff;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #a7afb7;
+    border: none;
+    /*max-width: 222px;*/
+    /*max-height: 30px;*/
+}
+
+.header-projects-container input::placeholder {
+    color: #a7afb7;
+}
+
+// Grid
+.divTableHead .divTableRow .divTableCell {
+    /*padding: 0 10px 24px 10px;*/
+    padding: 0;
+}
+
+.divTableRow {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+}
+
+.divTableHead {
+    border: 1px solid rgba(214, 214, 224, 0.4);
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+
+.divTableHead .divTableRow {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #353564;
+}
+
+.divTableBody .divTableRowBg {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(108, 114, 147, 0.15);
+    border-radius: 4px;
+    margin-bottom: 5px;
+    /*max-height: 60px !important;*/
+    .progress {
+        height: 2px;
+        .progress-bar {
+            background-color: #26dc8e;
+        }
+    }
+}
+
+.divTableRowBg {
+    transition: background-color ease-in 0.2s;
+    &:hover {
+        /*background-color: rgba(247, 247, 247, 0.3);*/
+    }
+}
+
+.divTableCell {
+    padding: 12px 15px 12px 12px;
+    flex: auto;
+    justify-content: center;
+    text-align: center;
+    .task-users {
+        padding-right: 4px;
+    }
+    .header-dropdown {
+        margin: 0px 8px 0 0 !important;
+    }
+}
+
+.divTableCell span i {
+    font-size: 16px;
+}
+
+.divTableCell span.priority {
+    padding: 4px 8px !important;
+    margin: 0 !important;
+    font-size: 10px !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.divTableCell span.badge {
+    padding: 4px 8px !important;
+    margin-left: 10 !important;
+    font-size: 10px !important;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.qtd-more-users {
+    min-width: 30px;
+    height: 30px;
+    margin-left: -4px !important;
+    justify-content: center;
+    font-size: 12px !important;
+    font-weight: 500;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.divTable .divTableCell .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3d4f9f;
+}
+
+.divTable .divTableCell p,
+.divTable .divTableCell span a,
+.divTable .divTableCell span.info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a2b3ca;
+}
+
+.divTable .divTableCell span a:hover {
+    text-decoration: none;
+    color: #26dc8e;
+}
+
+.divTable .participants .list-users {
+    display: flex;
+    flex-direction: row;
+}

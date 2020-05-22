@@ -1,0 +1,25 @@
+.b-avatar {
+    img {
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+    }
+}
+
+.list-users {
+    span {
+        margin-right: -6px;
+    }
+    .qtd-more-users {
+        position: relative;
+        top: -1px;
+        min-width: 28px;
+        height: 29px;
+        margin-right: -6px !important;
+        font-size: 11px !important;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+    }
+}

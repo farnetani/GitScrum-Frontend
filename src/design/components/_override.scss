@@ -1,0 +1,114 @@
+.badge {
+    font-weight: 500;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    .col {
+        position: relative;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.titleLoading {
+    h1 {
+        color: #001737;
+        font-size: 16px !important;
+        display: flex !important;
+        -webkit-box-align: start !important;
+        align-items: flex-start !important;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 12px !important;
+        line-height: 14px;
+        color: #68748F;
+        margin-bottom: 0;
+    }
+}
+
+.b-avatar img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: auto;
+}
+
+.b-avatar.badge-secondary,
+.b-avatar.badge-secondary:hover,
+.b-avatar.badge-secondary:focus {
+    background-color: transparent;
+}
+
+.b-avatar {
+    max-width: auto !important;
+}
+
+a.badge-secondary:focus,
+a.badge-secondary.focus {
+    box-shadow: none;
+}
+
+.form-row {
+    label {
+        font-size: 13px;
+    }
+    .form-group {
+        margin-bottom: 5px;
+    }
+    .form-control {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+}
+
+.table-small {
+    thead {
+        display: none;
+    }
+    th,
+    td {
+        padding: 0.5em 0.4em 0.3em !important;
+        vertical-align: middle !important;
+        border-top: 1px solid #DADBFC !important;
+        font-size: 1em !important;
+        color: #001737 !important;
+    }
+    tbody tr:hover {
+        color: #001737 !important;
+        background-color: #E5EFFF !important;
+    }
+    .btn-sm,
+    .btn-group-sm>.btn {
+        padding: 3px 10px;
+        font-size: 0.775rem;
+        line-height: 12px;
+        border-radius: 4px;
+        height: 20px;
+    }
+}
+
+.tlp-main-project {
+    .tpl-main-project-area {
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        top: 52px;
+    }
+    .subheader {
+        padding: 10px 15px 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        .dropdown-toggle {
+            padding: 2px 6px;
+            font-size: 0.76em;
+            font-weight: 600;
+            line-height: 1.5em;
+        }
+    }
+}

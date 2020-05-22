@@ -1,0 +1,119 @@
+$widths: 40px,
+50px,
+80px,
+350px;
+@each $width in $widths {
+    .wd-#{$width}-px {
+        width: $width;
+    }
+}
+
+
+/********
+Dropdown size
+********/
+
+$sizes: 100px,
+350px,
+400px;
+@each $size in $sizes {
+    .dropdown-#{$size} .dropdown-menu {
+        width: $size;
+    }
+}
+
+
+/********
+Padding size
+********/
+
+$sizes: 10px,
+15px,
+20px;
+@each $size in $sizes {
+    .pd-#{$size} {
+        padding: $size;
+    }
+}
+
+
+/********
+Padding Top size
+********/
+
+$sizes: 10px,
+15px,
+20px,
+50px,
+60px,
+70px;
+@each $size in $sizes {
+    .pt-#{$size} {
+        padding-top: $size;
+    }
+}
+
+
+/********
+Margin size
+********/
+
+$sizes: 10px,
+15px,
+20px;
+@each $size in $sizes {
+    .mg-#{$size} {
+        margin: $size;
+    }
+}
+
+$sizes: 5px,
+10px,
+15px,
+20px,
+50px;
+@each $size in $sizes {
+    .mt-#{$size} {
+        margin-top: $size;
+    }
+}
+
+$sizes: 5px,
+10px,
+15px,
+20px;
+@each $size in $sizes {
+    .mb-#{$size} {
+        margin-bottom: $size;
+    }
+}
+
+
+/********
+Margin size
+********/
+
+$fonts: 10px,
+11px,
+12px,
+13px,
+14px,
+22px;
+@each $size in $fonts {
+    .fs-#{$size} {
+        font-size: $size;
+    }
+}
+
+input.form-control {
+    padding: 4px 10px !important;
+}
+
+.authentication {
+    input.form-control {
+        padding: 8px 10px !important;
+    }
+    .mb-19px {
+        margin-bottom: 12px;
+    }
+}

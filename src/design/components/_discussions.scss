@@ -1,0 +1,32 @@
+.discussion {
+    .comment,
+    .title {
+        p,
+        span,
+        div,
+        pre,
+        .text p,
+        .text span {
+            font-size: 14px !important;
+        }
+    }
+}
+
+.comment-avatar {
+    a,
+    p,
+    span,
+    div,
+    pre,
+    .text p,
+    .text span {
+        font-size: 12px !important;
+    }
+    a {
+        font-weight: 600;
+        color: #68748F;
+    }
+    span {
+        color: #68748F;
+    }
+}

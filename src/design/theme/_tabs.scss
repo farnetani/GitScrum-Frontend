@@ -1,0 +1,45 @@
+.tabs-burndown {
+    .tab-content {
+        border: 0 solid transparent;
+        border-top: 0;
+        padding: 0;
+    }
+    .nav-tabs {
+        position: relative;
+        margin-left: 68px;
+        z-index: 3;
+    }
+    .nav-tabs .nav-link {
+        width: auto;
+        text-align: center;
+        margin-right: 10px;
+        border-radius: 4px !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #68748F;
+        padding: 3px 6px;
+    }
+    .nav-tabs .nav-link.active {
+        color: #001737;
+    }
+    .nav-tabs {
+        border-bottom: 0 solid transparent;
+    }
+    .tab-pane {
+        position: absolute;
+        top: -10px;
+        width: 100%;
+    }
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        color: #6c7293;
+        background-color: #ffffff;
+        border-color: #eee;
+    }
+}
+
+.highcharts-credits {
+    display: none !important;
+}
